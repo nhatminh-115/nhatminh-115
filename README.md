@@ -48,5 +48,7 @@ I build AI systems — from training deep learning models to architecting real-t
 - **MLOps Specialization** — Duke University
 
 ---
+*Ours is the fury.*
+
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/nnminh115/)
