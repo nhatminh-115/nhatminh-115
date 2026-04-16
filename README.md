@@ -1,39 +1,45 @@
 # Hi, I'm Minh 👋
+**AI Engineer | Final-year Robot-AI @ UEH**
 
-**AI Engineer | Cloud-Native MLOps | Final-year Robot-AI @ UEH**
-
-I build robust AI systems—from training deep learning models to architecting scalable, real-time inference pipelines on the cloud. 
+I build AI systems — from training deep learning models to architecting real-time inference pipelines on the cloud.
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### [PPE Vision *(In Progress)*](https://github.com/nhatminh-115/PPE-Detection) 
-*Cloud-Native Inference Engine for Real-Time PPE Compliance*
-- **Architecture:** FastAPI inference engine with async event logging via ThreadPoolExecutor. *(Kafka integration: roadmap)*
-- **AI Pipeline:** Dual-YOLO spatial-temporal ensemble + ByteTrack.
-- **Highlight:** Engineered a **Forward-CAM** interceptor on EfficientNetV2-B0 to interpret feature extraction and suppress False Positives.
-- **Database:** Idempotent event logging to **Supabase** (PostgreSQL) with local blob storage.
+### [PPE Detection](https://github.com/nhatminh-115/PPE-Detection)
+*Real-Time PPE Compliance Monitoring System*
+
+- **Detection:** YOLO11s + YOLO26l WBF ensemble (weights=[2,1]) + ByteTrack + Box EMA for stable tracking
+- **Classification:** EfficientNetV2-B0 (F1=0.92, ONNX 7.46ms vs 45ms PyTorch — 6x speedup) for small boxes; SigLIP SO400M zero-shot for large boxes
+- **State Management:** Hysteresis FSM + Classify Lock to suppress alert fatigue and reduce redundant GPU inference
+- **Data Flywheel:** Closed-loop retraining via S3 versioning + EC2 Spot + MLflow; drift triggered by 7-day rolling human disagreement rate
+- **Reporting:** LangGraph 4-agent pipeline + ChromaDB RAG on Thông tư 25/2022 → daily compliance reports with regulation citations
+- **Infra:** Terraform (AWS), Docker, GitHub Actions CI/CD, Docker Hub, DagsHub MLflow
+
 ![CI/CD](https://github.com/nhatminh-115/PPE-Detection/actions/workflows/ci-cd-pipeline.yml/badge.svg)
 
-### [CaliHousing MLOps](https://github.com/nhatminh-115/cali-housing-mlops)
-*Automated GitOps Architecture & Data Drift Observability*
-- **Infra as Code:** Provisioned AWS EC2 infrastructure autonomously using **Terraform**.
-- **Observability:** Engineered Population Stability Index (PSI) monitoring with **Telegram API Webhooks** for real-time Covariate Shift alerts.
-- **Continuous Training (CT):** Automated model retraining and **MLflow** registry updates via GitHub Actions.
-![MLOps CI Pipeline](https://github.com/nhatminh-115/cali-housing-mlops/actions/workflows/mlops-ci.yml/badge.svg)
+### [GreenCalyx AI](https://github.com/nhatminh-115/GreenCalyx_AI)
+*Logistics ESG Scoring Tool — CAIEC Competition*
 
-### Digital Twin — Environment Monitoring *(In Progress)*
-*Graduation Internship Project*
-- Integrating IoT sensor arrays (DHT22, CCS811) with MQTT and HomeAssistant.
-- Time-series forecasting with LSTM and visualizing telemetry in a **Unity 3D** interactive dashboard.
+- **Pipeline:** LangGraph agent parses 5 trade document types (CI, PL, BL/AWB, TDS, PPWR) via Groq Llama-4-Scout vision
+- **Emissions:** CO2e calculation aligned with GLEC Framework v3.2 / ISO 14083; sea routing via searoute-py (accounts for Malacca, Suez, Panama)
+- **Output:** ESG score (0–100) with GREEN/YELLOW/RED lane classification and natural-language explanation; results logged to Supabase
+
+
+### [Digital Twin — Environment Monitoring](https://github.com/nhatminh-115/IoT-DigitalTwin-Backend) *(In Progress)*
+*Graduation Internship @ UEH Campus V*
+
+- LSTM one-step forecaster + Autoencoder anomaly detection on 8 sensor nodes
+- DataQualityGate pipeline: flatline detection, z-score outlier removal, linear interpolation
+- Telegram bot with AI assistant (Groq Llama 3.3 70B) and intent-based context routing
 
 ---
 
 ## Tech Stack
-- **AI / Computer Vision:** `PyTorch` `YOLO` `timm` `OpenCV` `ONNX Runtime`
-- **MLOps / Cloud:** `Docker` `Terraform` `AWS (EC2, S3)` `MLflow` `GitHub Actions` 
-- **Backend / Data:** `Python` `FastAPI` `Kafka` `Supabase` `MQTT`
+- **AI / ML:** `PyTorch` `YOLO` `timm` `ONNX Runtime` `LangGraph` `ChromaDB`
+- **MLOps / Cloud:** `Docker` `Terraform` `AWS (EC2, S3)` `MLflow` `GitHub Actions`
+- **Backend / Data:** `Python` `FastAPI` `Supabase` `MQTT`
 
 ---
 
@@ -43,5 +49,4 @@ I build robust AI systems—from training deep learning models to architecting s
 
 ---
 
-## Connect
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/nnminh115/)
