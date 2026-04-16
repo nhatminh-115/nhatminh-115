@@ -17,7 +17,13 @@ I build AI systems — from training deep learning models to architecting real-t
 - **Reporting:** LangGraph 4-agent pipeline + ChromaDB RAG on Thông tư 25/2022 → daily compliance reports with regulation citations
 - **Infra:** Terraform (AWS), Docker, GitHub Actions CI/CD, Docker Hub, DagsHub MLflow
 
-![CI/CD](https://github.com/nhatminh-115/PPE-Detection/actions/workflows/ci-cd-pipeline.yml/badge.svg)
+### [ReframeBot](https://github.com/nhatminh-115/ReframeBot)
+*CBT-Oriented Mental Health Chatbot for University Students*
+
+- **Fine-tuning:** SFT + DPO on Llama 3.1 8B via PEFT/LoRA; DPO adapter improves response preference alignment
+- **Guardrail Router:** DistilBERT classifier (3-class: CBT / Crisis / Out-of-scope) — Accuracy 91.1%, macro F1=0.99
+- **RAG Grounding:** ChromaDB knowledge base for CBT context; BERTScore Faithfulness 0.849
+- **Deployment:** FastAPI backend + static web UI; models published on Hugging Face Hub
 
 ### [GreenCalyx AI](https://github.com/nhatminh-115/GreenCalyx_AI)
 *Logistics ESG Scoring Tool — CAIEC Competition*
@@ -37,9 +43,10 @@ I build AI systems — from training deep learning models to architecting real-t
 ---
 
 ## Tech Stack
-- **AI / ML:** `PyTorch` `YOLO` `timm` `ONNX Runtime` `LangGraph` `ChromaDB`
-- **MLOps / Cloud:** `Docker` `Terraform` `AWS (EC2, S3)` `MLflow` `GitHub Actions`
-- **Backend / Data:** `Python` `FastAPI` `Supabase` `MQTT`
+- **LLM & Fine-tuning:** `PyTorch` `Transformers` `PEFT/LoRA` `TRL (SFT/DPO)` `LangGraph` `ChromaDB` `Groq`
+- **Computer Vision:** `YOLO` `ONNX Runtime` `timm` `OpenCV`
+- **MLOps & Cloud:** `Docker` `Terraform` `AWS (EC2, S3)` `MLflow` `GitHub Actions`
+- **Backend & Data:** `FastAPI` `Supabase` `Python`
 
 ---
 
