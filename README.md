@@ -18,12 +18,13 @@ I build AI systems — from training deep learning models to architecting real-t
 - **Infra:** Terraform (AWS), Docker, GitHub Actions CI/CD, Docker Hub, DagsHub MLflow
 
 ### [ReframeBot](https://github.com/nhatminh-115/ReframeBot)
-*CBT-Oriented Mental Health Chatbot for University Students*
+*CBT-Oriented Mental Health Chatbot — Fine-tuned Llama 3.1 8B*
 
 - **Fine-tuning:** SFT + DPO on Llama 3.1 8B via PEFT/LoRA; DPO adapter improves response preference alignment
-- **Guardrail Router:** DistilBERT classifier (3-class: CBT / Crisis / Out-of-scope) — Accuracy 91.1%, macro F1=0.99
-- **RAG Grounding:** ChromaDB knowledge base for CBT context; BERTScore Faithfulness 0.849
-- **Deployment:** FastAPI backend + static web UI; models published on Hugging Face Hub
+- **Quantization:** AWQ 4-bit (autoawq) — VRAM footprint ~5.4 GB on RTX 5070; exported and published on Hugging Face
+- **Serving:** vLLM + PagedAttention via OpenAI-compatible API; p50 latency 3.3s, TTFT 1.09s, ~54 tok/s
+- **Guardrail Router:** DistilBERT 3-class classifier (CBT / Crisis / Out-of-scope) — Accuracy 91.1%
+- **Infra:** Dockerized two-container stack (vLLM + FastAPI); RAG grounding via ChromaDB
 
 ### [GreenCalyx AI](https://github.com/nhatminh-115/GreenCalyx_AI)
 *Logistics ESG Scoring Tool — CAIEC Competition*
@@ -44,9 +45,10 @@ I build AI systems — from training deep learning models to architecting real-t
 
 ## Tech Stack
 - **LLM & Fine-tuning:** `PyTorch` `Transformers` `PEFT/LoRA` `TRL (SFT/DPO)` `LangGraph` `ChromaDB` `Groq`
-- **Computer Vision:** `YOLO` `ONNX Runtime` `timm` `OpenCV`
+- **Model Serving & Optimization:** `vLLM` `AWQ (autoawq)` `ONNX Runtime`
+- **Computer Vision:** `YOLO` `OpenCV`
 - **MLOps & Cloud:** `Docker` `Terraform` `AWS (EC2, S3)` `MLflow` `GitHub Actions`
-- **Backend & Data:** `FastAPI` `Supabase` `Python`
+- **Backend & Data:** `FastAPI` `PostgreSQL` `Supabase` `Python`
 
 ---
 
