@@ -16,6 +16,7 @@ I build AI systems — from training deep learning models to architecting real-t
 - **Data Flywheel:** Closed-loop retraining via S3 versioning + EC2 Spot + MLflow; drift triggered by 7-day rolling human disagreement rate
 - **Reporting:** LangGraph 4-agent pipeline + ChromaDB RAG on Thông tư 25/2022 → daily compliance reports with regulation citations
 - **Infra:** Terraform (AWS), Docker, GitHub Actions CI/CD, Docker Hub, DagsHub MLflow
+- **Optimization:** EfficientNetV2-B0 ONNX FP32 (6x CPU speedup, 7.46ms); SigLIP SO400M ONNX INT8 — 4x size reduction (1632MB → 411MB), cosine similarity 0.994 vs FP32
 
 ### [ReframeBot](https://github.com/nhatminh-115/ReframeBot)
 *CBT-Oriented Mental Health Chatbot — Fine-tuned Llama 3.1 8B*
@@ -25,6 +26,7 @@ I build AI systems — from training deep learning models to architecting real-t
 - **Serving:** vLLM + PagedAttention via OpenAI-compatible API; p50 latency 3.3s, TTFT 1.09s, ~54 tok/s
 - **Guardrail Router:** DistilBERT 3-class classifier (CBT / Crisis / Out-of-scope) — Accuracy 91.1%
 - **Infra:** Dockerized two-container stack (vLLM + FastAPI); RAG grounding via ChromaDB
+
 
 ### [GreenCalyx AI](https://github.com/nhatminh-115/GreenCalyx_AI)
 *Logistics ESG Scoring Tool — CAIEC Competition*
@@ -45,7 +47,7 @@ I build AI systems — from training deep learning models to architecting real-t
 
 ## Tech Stack
 - **LLM & Fine-tuning:** `PyTorch` `Transformers` `PEFT/LoRA` `TRL (SFT/DPO)` `LangGraph` `ChromaDB` `Groq`
-- **Model Serving & Optimization:** `vLLM` `AWQ (autoawq)` `ONNX Runtime`
+- **Model Serving & Optimization:** `vLLM` `AWQ (autoawq)` `ONNX Runtime (FP32/INT8)`
 - **Computer Vision:** `YOLO` `OpenCV`
 - **MLOps & Cloud:** `Docker` `Terraform` `AWS (EC2, S3)` `MLflow` `GitHub Actions`
 - **Backend & Data:** `FastAPI` `PostgreSQL` `Supabase` `Python`
