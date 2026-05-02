@@ -62,4 +62,4 @@ I build production-grade AI systems — from fine-tuning and serving LLMs to dep
 
 *Ours is the fury.*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/nnminh115/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/nnminh115/) [![Substack](https://img.shields.io/badge/Substack-nghiemnhatminh-FF6719?style=flat&logo=substack&logoColor=white)](https://nghiemnhatminh.substack.com)
