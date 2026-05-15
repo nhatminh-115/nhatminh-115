@@ -8,7 +8,7 @@ I build production-grade AI systems — from fine-tuning and serving LLMs to dep
 
 ## Featured Projects
 
-### [PPE Detection](https://github.com/nhatminh-115/PPE-Detection)
+### [SentinelVision](https://github.com/nhatminh-115/SentinelVision)
 *Real-Time PPE Compliance Monitoring — Computer Vision · MLOps · LLM Reporting*
 
 - **Detection:** YOLO11s + YOLO26l WBF ensemble + ByteTrack + Box EMA for stable multi-person tracking
