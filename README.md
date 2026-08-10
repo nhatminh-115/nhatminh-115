@@ -8,7 +8,7 @@ Applied AI projects in computer vision, LLM serving, and IoT, with a focus on in
 
 ## Featured Projects
 
-### [SentinelVision](https://github.com/nhatminh-115/SentinelVision)
+### [SentinelVision](https://github.com/nhatminh-115/SentinelVision-Showcase)
 
 *Real-time PPE compliance monitoring with computer vision, automated evaluation, and regulation-grounded reporting.*
 
