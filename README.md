@@ -36,8 +36,10 @@ Applied AI projects in computer vision, LLM serving, time-series modeling, and I
 * **Real-world telemetry:** Built the analytical pipeline around **80,958 timestamped records spanning ~181 days**, collected from **8 IoT sensor nodes and 32 environmental channels** at a mixed-use university campus.
 * **Data quality:** Implemented a deterministic Data Quality Gate for sensor flatlines, extreme spikes, missing values, acquisition gaps, and unreliable gas channels before downstream modeling.
 * **Time-series forecasting:** Developed a **first-order differenced multivariate LSTM** with recursive **3–30 minute forecasting** and **Monte Carlo Dropout uncertainty estimation**, benchmarked against Extra-Trees and a vanilla LSTM baseline.
-* **Anomaly diagnostics:** Built an autoencoder-based anomaly screening pipeline over **23 validated channels**, with feature-level reconstruction-error attribution to explain abnormal humidity, ventilation, and TVOC patterns.
-* **Cognitive layer:** Designed an evidence-grounded conversational interface that converts structured sensor status, data-quality flags, forecasts, uncertainty intervals, and anomaly attribution into operator-facing explanations while using semantic caching to reduce redundant LLM calls.
+* **Anomaly diagnostics:** Built an autoencoder-based anomaly screening pipeline over **23 screened channels**, with feature-level reconstruction-error attribution to explain abnormal humidity, ventilation, and TVOC patterns.
+* **Digital Twin integration:** Connected live IoT telemetry to a **Unity 3D environment via MQTT** for real-time visualization, with the backend deployed on a **VPS**.
+* **Cognitive assistant:** Built a **Telegram assistant using Groq Llama 3.3 70B** with intent-based context routing, backed by structured sensor status, data-quality flags, forecasts, uncertainty intervals, and anomaly evidence.
+* **LLM efficiency:** Added **semantic caching** for similar operational queries to reduce redundant LLM calls and response overhead.
 
 ---
 
