@@ -2,7 +2,7 @@
 
 **AI Engineer | Robotics & AI, UEH**
 
-Applied AI projects in computer vision, LLM serving, and IoT, with a focus on inference optimization, evaluation, and deployable backend systems.
+Applied AI projects in computer vision, LLM serving, time-series modeling, and IoT, with a focus on inference optimization, evaluation, and deployable backend systems.
 
 ---
 
@@ -28,22 +28,16 @@ Applied AI projects in computer vision, LLM serving, and IoT, with a focus on in
 * **Guardrail routing:** DistilBERT 3-class classifier for CBT, crisis, and out-of-scope routing, backed by regex and semantic crisis signals. Achieved **98.3% accuracy on a 60-example out-of-domain hard evaluation set** using a `P(TASK_2) >= 0.10` threshold selected to prioritize crisis recall.
 * **RAG observability:** LangSmith tracing and RAGAS evaluation over a ChromaDB CBT knowledge base. Topic-aware chunking and retrieval tuning achieved faithfulness of **0.7388** and context precision/recall of **0.8125**.
 
-### [GreenCalyx AI](https://github.com/nhatminh-115/GreenCalyx_AI)
 
-*Logistics ESG scoring tool developed for the CAIEC Competition.*
+### [Cognitive Digital Twin for IEQ Monitoring](https://github.com/nhatminh-115/IoT-DigitalTwin-Backend)
 
-* **Document pipeline:** LangGraph workflow parses five trade-document types (CI, PL, BL/AWB, TDS, and PPWR) using Groq Llama 4 Scout vision.
-* **Emissions estimation:** Calculates CO2e using GLEC Framework v3.2 and ISO 14083-aligned logic, with sea-route estimation through `searoute-py`.
-* **Output:** Produces a 0–100 ESG score with GREEN, YELLOW, and RED lane classification; stores results in Supabase.
+*Graduation internship project at UEH Campus V, focused on predictive and explainable smart-building monitoring.*
 
-### [Digital Twin: Environment Monitoring](https://github.com/nhatminh-115/IoT-DigitalTwin-Backend)
-
-*Graduation internship at UEH Campus V, Jun 2025 – Jun 2026.*
-
-* LSTM one-step forecasting and autoencoder-based anomaly detection across eight sensor nodes.
-* Data-quality pipeline for flatline detection, z-score outlier filtering, and linear interpolation.
-* Telegram assistant using Groq Llama 3.3 70B with intent-based context routing.
-* Real-time Unity 3D visualization deployed on a VPS.
+* **Real-world telemetry:** Built the analytical pipeline around **80,958 timestamped records spanning ~181 days**, collected from **8 IoT sensor nodes and 32 environmental channels** at a mixed-use university campus.
+* **Data quality:** Implemented a deterministic Data Quality Gate for sensor flatlines, extreme spikes, missing values, acquisition gaps, and unreliable gas channels before downstream modeling.
+* **Time-series forecasting:** Developed a **first-order differenced multivariate LSTM** with recursive **3–30 minute forecasting** and **Monte Carlo Dropout uncertainty estimation**, benchmarked against Extra-Trees and a vanilla LSTM baseline.
+* **Anomaly diagnostics:** Built an autoencoder-based anomaly screening pipeline over **23 validated channels**, with feature-level reconstruction-error attribution to explain abnormal humidity, ventilation, and TVOC patterns.
+* **Cognitive layer:** Designed an evidence-grounded conversational interface that converts structured sensor status, data-quality flags, forecasts, uncertainty intervals, and anomaly attribution into operator-facing explanations while using semantic caching to reduce redundant LLM calls.
 
 ---
 
@@ -52,6 +46,7 @@ Applied AI projects in computer vision, LLM serving, and IoT, with a focus on in
 * **LLM and fine-tuning:** `PyTorch` `Transformers` `PEFT/LoRA` `TRL` `SFT` `DPO` `LangGraph` `ChromaDB` `RAGAS` `Groq`
 * **Serving and optimization:** `vLLM` `AWQ` `ONNX Runtime` `FP32` `FP16`
 * **Computer vision:** `YOLO` `EfficientNetV2` `SigLIP` `ByteTrack` `OpenCV` `WBF`
+* **Time-series and anomaly detection:** `LSTM` `Monte Carlo Dropout` `Autoencoder`
 * **MLOps and cloud:** `Docker` `Terraform` `AWS EC2` `AWS S3` `MLflow` `DagsHub` `GitHub Actions`
 * **Backend and data:** `FastAPI` `PostgreSQL` `Supabase` `Python` `MQTT`
 
