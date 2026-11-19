@@ -29,18 +29,17 @@ Applied AI projects in computer vision, LLM serving, time-series modeling, and I
 * **RAG observability:** LangSmith tracing and RAGAS evaluation over a ChromaDB CBT knowledge base. Topic-aware chunking and retrieval tuning achieved faithfulness of **0.7388** and context precision/recall of **0.8125**.
 
 
-### [Cognitive Digital Twin for IEQ Monitoring](https://github.com/nhatminh-115/IoT-DigitalTwin-Backend)
+### [Campus Environmental Digital Twin](https://github.com/nhatminh-115/IoT-DigitalTwin-Backend)
 
-*Graduation internship project at UEH Campus V, focused on predictive and explainable smart-building monitoring.*
+*Graduation internship project at UEH Campus V, developing an AI-enabled environmental monitoring and forecasting system.*
 
-* **Real-world telemetry:** Built the analytical pipeline around **80,958 timestamped records spanning ~181 days**, collected from **8 IoT sensor nodes and 32 environmental channels** at a mixed-use university campus.
-* **Data quality:** Implemented a deterministic Data Quality Gate for sensor flatlines, extreme spikes, missing values, acquisition gaps, and unreliable gas channels before downstream modeling.
-* **Time-series forecasting:** Developed a **first-order differenced multivariate LSTM** with recursive **3–30 minute forecasting** and **Monte Carlo Dropout uncertainty estimation**, benchmarked against Extra-Trees and a vanilla LSTM baseline.
-* **Anomaly diagnostics:** Built an autoencoder-based anomaly screening pipeline over **23 screened channels**, with feature-level reconstruction-error attribution to explain abnormal humidity, ventilation, and TVOC patterns.
-* **Digital Twin integration:** Connected live IoT telemetry to a **Unity 3D environment via MQTT** for real-time visualization, with the backend deployed on a **VPS**.
-* **Cognitive assistant:** Built a **Telegram assistant using Groq Llama 3.3 70B** with intent-based context routing, backed by structured sensor status, data-quality flags, forecasts, uncertainty intervals, and anomaly evidence.
-* **LLM efficiency:** Added **semantic caching** for similar operational queries to reduce redundant LLM calls and response overhead.
-
+* **Telemetry pipeline:** Built a resilient ingestion and normalization pipeline that transforms device-level sensor readings into a multivariate time-series dataset, with timestamp parsing, schema normalization, and retry-aware fetching.
+* **Data quality:** Implemented a deterministic Data Quality Gate with sensor flatline detection, statistical outlier filtering, and missing-value interpolation before downstream modeling.
+* **Forecasting and evaluation:** Developed a first-order-differenced multivariate LSTM for next-step prediction, supported by historical evaluation, rolling MAE/RMSE diagnostics, and Monte Carlo Dropout-based uncertainty estimates.
+* **Anomaly detection:** Integrated an autoencoder-based detector using reconstruction-error scoring and feature-level attribution to identify channels contributing most to anomalous readings.
+* **Backend and Digital Twin integration:** Exposed FastAPI endpoints for sensor readings and predictions; connected a Unity 3D client and built a Streamlit dashboard for forecast and model-health monitoring.
+* **AI-assisted operations:** Built a Telegram assistant powered by Groq Llama 3.3 70B, with intent-based sensor-context routing and semantic caching for repeated operational queries.
+* **Deployment:** Containerized the backend with Docker and automated deployment synchronization through GitHub Actions.
 ---
 
 ## Tech Stack
@@ -48,9 +47,9 @@ Applied AI projects in computer vision, LLM serving, time-series modeling, and I
 * **LLM and fine-tuning:** `PyTorch` `Transformers` `PEFT/LoRA` `TRL` `SFT` `DPO` `LangGraph` `ChromaDB` `RAGAS` `Groq`
 * **Serving and optimization:** `vLLM` `AWQ` `ONNX Runtime` `FP32` `FP16`
 * **Computer vision:** `YOLO` `EfficientNetV2` `SigLIP` `ByteTrack` `OpenCV` `WBF`
-* **Time-series and anomaly detection:** `LSTM` `Monte Carlo Dropout` `Autoencoder`
+* **Time-series and anomaly detection:** `LSTM` `Monte Carlo Dropout` `Autoencoder` `Rolling MAE/RMSE`
 * **MLOps and cloud:** `Docker` `Terraform` `AWS EC2` `AWS S3` `MLflow` `DagsHub` `GitHub Actions`
-* **Backend and data:** `FastAPI` `PostgreSQL` `Supabase` `Python` `MQTT`
+* **Backend and data:** `FastAPI` `Streamlit` `Unity 3D` `Telegram Bot API` `PostgreSQL` `Supabase` `Python`
 
 ---
 
