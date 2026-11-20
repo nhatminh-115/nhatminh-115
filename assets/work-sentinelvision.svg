@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img" aria-labelledby="t d">
+<title id="t">SentinelVision — Computer Vision and MLOps</title><desc id="d">Real-time multi-camera PPE compliance monitoring with detection, tracking, size-routed classification, alerts and a human-confirmed retraining loop.</desc>
+<defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#211a13"/><stop offset="1" stop-color="#302318"/></linearGradient></defs>
+<rect width="1200" height="210" rx="8" fill="url(#g)"/><rect x="1" y="1" width="1198" height="208" rx="8" fill="none" stroke="#b98b4b" stroke-opacity=".7"/>
+<rect x="0" y="0" width="8" height="210" rx="4" fill="#d6a451"/>
+<text x="38" y="37" fill="#d4a75e" font-family="monospace" font-size="12" letter-spacing="2">01  /  COMPUTER VISION · REAL-TIME · HUMAN-IN-THE-LOOP MLOPS</text>
+<text x="38" y="86" fill="#f0e4ca" font-family="Georgia,serif" font-size="39">SentinelVision</text>
+<text x="38" y="119" fill="#d8c8a8" font-family="Arial,sans-serif" font-size="18">Multi-camera PPE monitoring: YOLO ensemble → ByteTrack → size-routed classifiers → parallel alerts.</text>
+<text x="38" y="151" fill="#d8c8a8" font-family="Arial,sans-serif" font-size="18">Human-confirmed labels feed a drift-gated EfficientNet retraining and artifact-tracking loop.</text>
+<g transform="translate(38 174)" font-family="monospace" font-size="11" fill="#d8b77b"><rect width="174" height="23" rx="4" fill="#49351f" stroke="#8e6c3e"/><text x="87" y="15" text-anchor="middle">DETECT + TRACK</text><rect x="185" width="192" height="23" rx="4" fill="#49351f" stroke="#8e6c3e"/><text x="281" y="15" text-anchor="middle">SIZE-ROUTED MODELS</text><rect x="388" width="158" height="23" rx="4" fill="#49351f" stroke="#8e6c3e"/><text x="467" y="15" text-anchor="middle">ALERT DELIVERY</text><rect x="557" width="205" height="23" rx="4" fill="#49351f" stroke="#8e6c3e"/><text x="659" y="15" text-anchor="middle">HUMAN-LABEL LOOP</text></g>
+<g transform="translate(965 49)"><circle cx="76" cy="50" r="43" fill="#d6a451" opacity=".09"/><circle cx="76" cy="50" r="30" fill="none" stroke="#d6a451" stroke-opacity=".6"/><path d="M76 25v50M51 50h50M58 32l36 36M94 32L58 68" stroke="#d6a451" stroke-opacity=".65"/><text x="76" y="112" fill="#c69a5c" font-family="monospace" font-size="10" text-anchor="middle">LIVE → REVIEW → TRAIN</text></g>
+</svg>
