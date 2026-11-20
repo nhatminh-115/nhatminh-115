@@ -1,61 +1,87 @@
-# Hi, I'm Minh
+<p align="center">
+  <img src="assets/minh-profile-banner.svg" alt="Nhat Minh — AI / ML Engineer" width="100%" />
+</p>
 
-**AI Engineer | Robotics & AI, UEH**
+<p align="center">
+  <a href="https://www.linkedin.com/in/nnminh115/"><img src="https://img.shields.io/badge/LinkedIn-connect-4b3b2a?style=flat-square&logo=linkedin&logoColor=d8bd8b" alt="LinkedIn" /></a>
+  <a href="mailto:nhatminhvcst115@gmail.com"><img src="https://img.shields.io/badge/Email-contact-4b3b2a?style=flat-square&logo=gmail&logoColor=d8bd8b" alt="Email" /></a>
+  <a href="https://github.com/nhatminh-115"><img src="https://img.shields.io/badge/GitHub-nhatminh--115-4b3b2a?style=flat-square&logo=github&logoColor=d8bd8b" alt="GitHub" /></a>
+</p>
 
-Applied AI projects in computer vision, LLM serving, time-series modeling, and IoT, with a focus on inference optimization, evaluation, and deployable backend systems.
-
----
-
-## Featured Projects
-
-### [SentinelVision](https://github.com/nhatminh-115/SentinelVision-Showcase)
-
-*Real-time PPE compliance monitoring with computer vision, automated evaluation, and regulation-grounded reporting.*
-
-* **Detection and tracking:** YOLO11s + YOLO26l ensemble with Weighted Boxes Fusion, ByteTrack, and Box EMA for stable multi-person tracking.
-* **PPE classification:** EfficientNetV2-B0 ONNX FP32 achieves **7.46 ms CPU latency** versus ~45 ms in PyTorch (about **6× faster**, F1 = 0.92) for small boxes. SigLIP SO400M ONNX FP16 handles larger boxes with **3.2× GPU speedup**, **2× smaller model size**, and 0.999997 cosine similarity to the PyTorch output.
-* **State management:** Hysteresis FSM and classify-lock logic suppress repeated alerts and avoid redundant GPU inference for stable tracks.
-* **Evaluation feedback loop:** Human-confirmed labels are versioned and exported to S3. EC2 Spot retraining is triggered only when the 7-day rolling human disagreement rate exceeds 0.25 and at least 100 confirmed labels are available.
-* **Reporting:** LangGraph pipeline with ChromaDB RAG over Vietnam Circular 25/2022/TT-BLDTBXH generates daily compliance reports with regulation citations.
-* **Infrastructure:** Docker, Terraform on AWS, GitHub Actions CI/CD, Supabase, and MLflow/DagsHub experiment tracking.
-
-### [ReframeBot](https://github.com/nhatminh-115/ReframeBot)
-
-*CBT-oriented chatbot for academic stress, focused on efficient local LLM serving, guardrail routing, and RAG evaluation.*
-
-* **Fine-tuning and compression:** Fine-tuned Llama 3.1 8B with SFT + DPO through PEFT/LoRA, then applied AWQ 4-bit quantization to reduce serving VRAM to approximately **5.4 GB**.
-* **Serving:** Dockerized vLLM and FastAPI stack with an OpenAI-compatible API, PagedAttention, continuous batching, and SSE streaming. On an RTX 5070 8 GB GPU, measured p50 latency of **2.6 s**, p50 TTFT of **1.11 s**, and approximately **39 tokens/s**.
-* **Guardrail routing:** DistilBERT 3-class classifier for CBT, crisis, and out-of-scope routing, backed by regex and semantic crisis signals. Achieved **98.3% accuracy on a 60-example out-of-domain hard evaluation set** using a `P(TASK_2) >= 0.10` threshold selected to prioritize crisis recall.
-* **RAG observability:** LangSmith tracing and RAGAS evaluation over a ChromaDB CBT knowledge base. Topic-aware chunking and retrieval tuning achieved faithfulness of **0.7388** and context precision/recall of **0.8125**.
-
-
-### [Campus Environmental Digital Twin](https://github.com/nhatminh-115/IoT-DigitalTwin-Backend)
-
-*Graduation internship project at UEH Campus V, developing an AI-enabled environmental monitoring and forecasting system.*
-
-* **Telemetry pipeline:** Built a resilient ingestion and normalization pipeline that transforms device-level sensor readings into a multivariate time-series dataset, with timestamp parsing, schema normalization, and retry-aware fetching.
-* **Data quality:** Implemented a deterministic Data Quality Gate with sensor flatline detection, statistical outlier filtering, and missing-value interpolation before downstream modeling.
-* **Forecasting and evaluation:** Developed a first-order-differenced multivariate LSTM for next-step prediction, supported by historical evaluation, rolling MAE/RMSE diagnostics, and Monte Carlo Dropout-based uncertainty estimates.
-* **Anomaly detection:** Integrated an autoencoder-based detector using reconstruction-error scoring and feature-level attribution to identify channels contributing most to anomalous readings.
-* **Backend and Digital Twin integration:** Exposed FastAPI endpoints for sensor readings and predictions; connected a Unity 3D client and built a Streamlit dashboard for forecast and model-health monitoring.
-* **AI-assisted operations:** Built a Telegram assistant powered by Groq Llama 3.3 70B, with intent-based sensor-context routing and semantic caching for repeated operational queries.
-* **Deployment:** Containerized the backend with Docker and automated deployment synchronization through GitHub Actions.
----
-
-## Tech Stack
-
-* **LLM and fine-tuning:** `PyTorch` `Transformers` `PEFT/LoRA` `TRL` `SFT` `DPO` `LangGraph` `ChromaDB` `RAGAS` `Groq`
-* **Serving and optimization:** `vLLM` `AWQ` `ONNX Runtime` `FP32` `FP16`
-* **Computer vision:** `YOLO` `EfficientNetV2` `SigLIP` `ByteTrack` `OpenCV` `WBF`
-* **Time-series and anomaly detection:** `LSTM` `Monte Carlo Dropout` `Autoencoder` `Rolling MAE/RMSE`
-* **MLOps and cloud:** `Docker` `Terraform` `AWS EC2` `AWS S3` `MLflow` `DagsHub` `GitHub Actions`
-* **Backend and data:** `FastAPI` `Streamlit` `Unity 3D` `Telegram Bot API` `PostgreSQL` `Supabase` `Python`
+<p align="center">
+  <strong>Ho Chi Minh City, Vietnam</strong> &nbsp;·&nbsp; B.Eng. Robotics &amp; Artificial Intelligence, UEH &nbsp;·&nbsp; Expected Mar 2027
+</p>
 
 ---
 
-## Certifications
+## About
 
-* **Deep Learning Specialization** — DeepLearning.AI
-* **MLOps Specialization** — Duke University
+I build AI systems across **computer vision, LLM applications, and applied machine learning**. My work focuses on the engineering between a model and a usable system: data quality, evaluation, inference optimization, backend integration, and deployment.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/nnminh115/)
+I enjoy investigating why models behave the way they do, measuring what actually improves, and turning validated components into systems that can be operated and maintained.
+
+## Selected Work
+
+### [SentinelVision](https://github.com/nhatminh-115/SentinelVision-Showcase) · Computer Vision & MLOps
+
+Real-time PPE compliance monitoring for construction and industrial environments.
+
+- **Detection and tracking:** YOLO ensemble, Weighted Boxes Fusion, ByteTrack, and temporal smoothing for multi-person tracking.
+- **Dual-path classification:** EfficientNetV2-B0 ONNX for small person boxes; SigLIP SO400M ONNX FP16 for larger boxes.
+- **Inference optimization:** EfficientNet ONNX reaches **7.46 ms CPU latency** with **F1 = 0.92** on the small-box route; SigLIP ONNX FP16 delivers **3.2× GPU speedup** over its PyTorch FP32 baseline.
+- **Human-in-the-loop MLOps:** versioned human-confirmed labels, disagreement monitoring, gated EC2 Spot retraining, and MLflow/DagsHub artifact tracking.
+
+### [ReframeBot](https://github.com/nhatminh-115/ReframeBot) · LLM Systems & Evaluation
+
+A CBT-oriented chatbot for university students, built around local LLM serving, safety routing, and retrieval evaluation.
+
+- Fine-tuned Llama 3.1 8B with **SFT + DPO**, then applied **AWQ 4-bit quantization**.
+- Served through a Dockerized **vLLM + FastAPI** stack with PagedAttention, continuous batching, and SSE streaming.
+- Added a DistilBERT guardrail router for CBT, crisis, and out-of-scope inputs, with explicit crisis-signal handling.
+- Evaluated retrieval quality with **RAGAS** and traced application behavior with LangSmith.
+
+### [Campus Environmental Digital Twin](https://github.com/nhatminh-115/IoT-DigitalTwin-Backend) · Applied ML & Backend
+
+An AI-enabled campus environmental monitoring and forecasting system developed during my UEH internship.
+
+- Built sensor ingestion, normalization, and a deterministic **data-quality gate** for flatlines, outliers, and missing values.
+- Developed multivariate **LSTM forecasting**, rolling error diagnostics, and Monte Carlo Dropout uncertainty estimates.
+- Integrated an **autoencoder anomaly detector** with feature-level attribution.
+- Connected the models to **FastAPI**, a Unity 3D client, Streamlit monitoring, and a Telegram assistant powered by Groq Llama 3.3 70B.
+
+### [Patch-Content Fungibility](https://github.com/nhatminh-115/Patch-Content-Fungibility) · Mechanistic ML Research
+
+A mechanistic investigation of late-layer spatial patch representations in Vision Transformers.
+
+- Studies patch-content replaceability under fixed token positions, sequence length, and model weights.
+- Examines feature geometry, token diversity, directional sensitivity, and functional transmission across four pretrained ViT families.
+- Includes an operator-aware token-compression benchmark as a bounded application of the mechanistic findings.
+
+## Engineering Toolkit
+
+| Area | Tools and methods |
+|---|---|
+| **Languages & data** | Python, SQL, Pandas, NumPy |
+| **Deep learning** | PyTorch, Transformers, PEFT/LoRA, TRL, SFT, DPO |
+| **Computer vision** | YOLO, EfficientNetV2, SigLIP, ByteTrack, OpenCV, ONNX Runtime |
+| **LLM systems** | vLLM, AWQ, LangGraph, ChromaDB, RAGAS, LangSmith |
+| **Backend & interfaces** | FastAPI, PostgreSQL, Supabase, Streamlit, Unity, Telegram Bot API |
+| **MLOps & cloud** | Docker, AWS, Terraform, MLflow, DagsHub, GitHub Actions |
+
+## Education & Credentials
+
+**University of Economics Ho Chi Minh City (UEH)**  
+B.Eng. in Robotics & Artificial Intelligence · Expected March 2027  
+**GPA: 3.65 / 4.00** &nbsp;·&nbsp; **TOEIC Listening & Reading: 985 / 990**
+
+- Deep Learning Specialization — DeepLearning.AI
+- MLOps Specialization — Duke University
+- NLP & LLMs — UEH
+
+---
+
+<p align="center">
+  <sub>Interested in AI engineering roles across computer vision, LLM systems, and applied ML.</sub>
+  <br />
+  <sub><a href="https://www.linkedin.com/in/nnminh115/">LinkedIn</a> · <a href="mailto:nhatminhvcst115@gmail.com">Email</a></sub>
+</p>
