@@ -18,7 +18,7 @@
   <img src="assets/about-panel.svg" alt="About: I build applied AI systems across computer vision, LLM applications and machine learning, focusing on data quality, evaluation, inference, backend integration and deployment." width="100%" />
 </p>
 
-[![SentinelVision: real-time PPE monitoring with YOLO detection, ByteTrack, size-routed classifiers, parallel alerts and a human-confirmed MLOps retraining loop.](assets/work-sentinelvision.svg)](https://github.com/nhatminh-115/SentinelVision-Showcase)
+[![SentinelVision: real-time PPE monitoring with YOLO detection, ByteTrack, size-routed classifiers, parallel alerts and a human-confirmed MLOps retraining loop.](assets/work-sentinelvision.svg)](https://github.com/nhatminh-115/SentinelVision)
 
 <details>
   <summary>Technical notes — SentinelVision</summary>
