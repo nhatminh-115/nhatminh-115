@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Nhat Minh — AI / ML Engineer</title>
+  <desc id="desc">A dark, sepia-toned fieldbook banner with a moonlit forest silhouette and warm parchment typography.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17130f"/>
+      <stop offset=".55" stop-color="#282017"/>
+      <stop offset="1" stop-color="#17140f"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#b58b52" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#b58b52" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="moon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e6d4ad"/>
+      <stop offset="1" stop-color="#a88a5b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect x="18" y="18" width="1164" height="264" rx="4" fill="none" stroke="#b58b52" stroke-opacity=".45"/>
+  <rect x="26" y="26" width="1148" height="248" rx="3" fill="none" stroke="#b58b52" stroke-opacity=".15"/>
+  <ellipse cx="935" cy="124" rx="300" ry="235" fill="url(#glow)"/>
+  <circle cx="944" cy="106" r="66" fill="url(#moon)" opacity=".88"/>
+  <circle cx="967" cy="86" r="66" fill="#282017" opacity=".72"/>
+  <g fill="#d9bd86" opacity=".62">
+    <circle cx="827" cy="55" r="2"/><circle cx="1045" cy="42" r="1.7"/><circle cx="1104" cy="112" r="1.5"/>
+    <circle cx="876" cy="164" r="1.4"/><circle cx="1080" cy="194" r="1.8"/><circle cx="770" cy="116" r="1.2"/>
+    <path d="M1120 62v12m-6-6h12" stroke="#d9bd86" stroke-width="1" fill="none"/>
+    <path d="M792 202v9m-4.5-4.5h9" stroke="#d9bd86" stroke-width=".8" fill="none"/>
+  </g>
+  <path d="M700 258 Q820 211 930 244 T1200 224 V300 H700Z" fill="#100e0b" opacity=".9"/>
+  <path d="M735 300 L735 207 710 244 727 240 700 274 725 264 687 300Z" fill="#0d0c0a"/>
+  <path d="M790 300 L790 183 758 232 780 225 747 269 780 254 744 300Z" fill="#11100d"/>
+  <path d="M1090 300 L1090 175 1056 225 1081 218 1048 266 1080 252 1040 300Z" fill="#0d0c0a"/>
+  <path d="M1150 300 L1150 205 1123 244 1142 238 1117 274 1144 262 1118 300Z" fill="#11100d"/>
+  <path d="M850 300 L850 229 829 260 845 255 820 286 846 275 826 300Z" fill="#17130f"/>
+  <path d="M1018 300 L1018 218 994 252 1011 246 985 281 1013 269 992 300Z" fill="#17130f"/>
+  <path d="M56 225H650" stroke="#b58b52" stroke-opacity=".42"/>
+  <text x="64" y="74" fill="#c49a5e" font-family="monospace" font-size="12" letter-spacing="3">FIELD NOTES  /  2026—27</text>
+  <text x="60" y="151" fill="#f0e4ca" font-family="Georgia, 'Times New Roman', serif" font-size="66" letter-spacing="5">NHAT MINH</text>
+  <text x="64" y="190" fill="#d8b778" font-family="monospace" font-size="18" letter-spacing="3">AI / ML ENGINEER</text>
+  <text x="64" y="258" fill="#d4c5a8" font-family="monospace" font-size="12" letter-spacing="1.2">COMPUTER VISION  ·  LLM SYSTEMS  ·  APPLIED ML</text>
+</svg>
