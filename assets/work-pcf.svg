@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="t d">
+<title id="t">Patch-Content Fungibility — Mechanistic ML Research</title><desc id="d">Mechanistic study of spatial patch representations in Vision Transformers and operator-aware token compression.</desc>
+<defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#1d1917"/><stop offset="1" stop-color="#30221c"/></linearGradient></defs>
+<rect width="1200" height="190" rx="8" fill="url(#g)"/><rect x="1" y="1" width="1198" height="188" rx="8" fill="none" stroke="#a77a5a" stroke-opacity=".7"/><rect width="8" height="190" rx="4" fill="#b47c5b"/>
+<text x="38" y="37" fill="#c58d69" font-family="monospace" font-size="12" letter-spacing="2">04  /  MECHANISTIC ML · VISION TRANSFORMERS · REPRESENTATION ANALYSIS</text>
+<text x="38" y="86" fill="#f0e4ca" font-family="Georgia,serif" font-size="39">Patch-Content Fungibility</text>
+<text x="38" y="119" fill="#d8c8b7" font-family="Arial,sans-serif" font-size="18">Investigating when late-layer spatial patch content can be replaced while positions, sequence and weights remain fixed.</text>
+<text x="38" y="150" fill="#d8c8b7" font-family="Arial,sans-serif" font-size="18">Studies geometry, diversity, directional sensitivity and operator-aware token compression across four ViT families.</text>
+<g transform="translate(990 40)" stroke="#bb8a68" fill="none"><g stroke-width="1"><rect x="0" y="0" width="34" height="34"/><rect x="40" y="0" width="34" height="34"/><rect x="80" y="0" width="34" height="34"/><rect x="0" y="40" width="34" height="34"/><rect x="40" y="40" width="34" height="34"/><rect x="80" y="40" width="34" height="34"/></g><path d="M17 17l40 40m40-40L57 57" stroke="#e1b16e" stroke-width="2"/><circle cx="57" cy="57" r="8" fill="#e1b16e" fill-opacity=".2"/></g>
+</svg>
