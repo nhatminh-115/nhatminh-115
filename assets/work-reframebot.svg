@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="t d">
+<title id="t">ReframeBot — LLM Systems</title><desc id="d">Local LLM application with fine-tuning, quantized vLLM serving, safety routing and retrieval evaluation.</desc>
+<defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#1c1b1a"/><stop offset="1" stop-color="#28251f"/></linearGradient></defs>
+<rect width="1200" height="190" rx="8" fill="url(#g)"/><rect x="1" y="1" width="1198" height="188" rx="8" fill="none" stroke="#8c8068" stroke-opacity=".7"/><rect width="8" height="190" rx="4" fill="#8e9872"/>
+<text x="38" y="37" fill="#b8bd8b" font-family="monospace" font-size="12" letter-spacing="2">02  /  LLM SYSTEMS · LOCAL SERVING · SAFETY EVALUATION</text>
+<text x="38" y="86" fill="#f0e4ca" font-family="Georgia,serif" font-size="39">ReframeBot</text>
+<text x="38" y="119" fill="#d8cdb7" font-family="Arial,sans-serif" font-size="18">CBT-oriented student chatbot with Llama 3.1 8B fine-tuning (SFT + DPO) and AWQ quantization.</text>
+<text x="38" y="150" fill="#d8cdb7" font-family="Arial,sans-serif" font-size="18">Dockerized vLLM + FastAPI serving, DistilBERT safety routing, RAGAS retrieval evaluation and tracing.</text>
+<g transform="translate(950 45)" fill="none" stroke="#9aa27b" stroke-width="1.5"><rect x="0" y="28" width="60" height="42" rx="6" fill="#343729"/><rect x="88" y="28" width="60" height="42" rx="6" fill="#343729"/><rect x="176" y="28" width="60" height="42" rx="6" fill="#343729"/><path d="M60 49h28m60 0h28" stroke="#c7a66b"/><text x="30" y="53" fill="#e4d7bd" stroke="none" font-family="monospace" font-size="10" text-anchor="middle">LLM</text><text x="118" y="53" fill="#e4d7bd" stroke="none" font-family="monospace" font-size="10" text-anchor="middle">GUARD</text><text x="206" y="53" fill="#e4d7bd" stroke="none" font-family="monospace" font-size="10" text-anchor="middle">RAG</text><text x="118" y="91" fill="#b8bd8b" stroke="none" font-family="monospace" font-size="10" text-anchor="middle">SERVE · ROUTE · EVALUATE</text></g>
+</svg>
