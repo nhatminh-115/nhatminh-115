@@ -1,13 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="t d">
-<title id="t">About Nhat Minh</title><desc id="d">A sepia fieldbook panel introducing an AI and machine learning engineer.</desc>
-<defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#211a14"/><stop offset="1" stop-color="#342719"/></linearGradient><radialGradient id="m"><stop stop-color="#c79a58" stop-opacity=".2"/><stop offset="1" stop-color="#c79a58" stop-opacity="0"/></radialGradient></defs>
-<rect width="1200" height="190" rx="8" fill="url(#g)"/><rect x="1" y="1" width="1198" height="188" rx="8" fill="none" stroke="#a9824d" stroke-opacity=".65"/>
-<ellipse cx="1090" cy="85" rx="190" ry="150" fill="url(#m)"/><circle cx="1090" cy="63" r="35" fill="#d7bb87" opacity=".16"/>
-<path d="M0 157 Q170 130 330 158 T650 150 T950 157 T1200 145 V190 H0Z" fill="#100e0b" opacity=".45"/>
-<path d="M1030 190v-57l-18 26 15-4-21 25 20-9-13 19zm65 0v-78l-24 36 20-7-26 34 22-9-14 24z" fill="#0f0d0a" opacity=".75"/>
-<text x="42" y="42" fill="#c79b5d" font-family="monospace" font-size="13" letter-spacing="3">FIELD NOTES  /  01 — ABOUT</text>
-<text x="42" y="91" fill="#f0e4ca" font-family="Georgia,serif" font-size="36">Engineering beyond the model.</text>
-<text x="42" y="126" fill="#d9c9a9" font-family="Arial,sans-serif" font-size="19">I build applied AI systems across computer vision, LLM applications and machine learning —</text>
-<text x="42" y="153" fill="#d9c9a9" font-family="Arial,sans-serif" font-size="19">with a focus on data quality, evaluation, inference, backend integration and deployment.</text>
-<path d="M42 169H785" stroke="#b48a50" stroke-opacity=".55"/><text x="1145" y="169" text-anchor="end" fill="#c79b5d" font-family="monospace" font-size="11" letter-spacing="2">HO CHI MINH CITY · VN</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="160" viewBox="0 0 1200 160" role="img" aria-labelledby="t d">
+<title id="t">About Nhat Minh</title><desc id="d">Applied AI engineering focused on computer vision, LLM applications, data quality, evaluation and deployment.</desc>
+<defs><linearGradient id="bg" x2="1" y2="0"><stop stop-color="#0d1117"/><stop offset=".72" stop-color="#0d1117"/><stop offset="1" stop-color="#11150f"/></linearGradient><radialGradient id="glow"><stop stop-color="#a17d4a" stop-opacity=".13"/><stop offset="1" stop-color="#a17d4a" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="160" fill="url(#bg)"/><ellipse cx="1090" cy="65" rx="210" ry="150" fill="url(#glow)"/>
+<rect width="3" height="132" y="8" fill="#b58b52"/>
+<text x="32" y="28" fill="#b99561" font-family="monospace" font-size="11" letter-spacing="2.5">FIELD NOTES  /  01 — ABOUT</text>
+<text x="32" y="70" fill="#eee4d1" font-family="Georgia,serif" font-size="34">Engineering beyond the model.</text>
+<text x="32" y="105" fill="#d0c8ba" font-family="Arial,sans-serif" font-size="18">I build applied AI systems across computer vision, LLM applications and machine learning —</text>
+<text x="32" y="132" fill="#d0c8ba" font-family="Arial,sans-serif" font-size="18">with a focus on data quality, evaluation, inference, backend integration and deployment.</text>
+<path d="M32 151H1168" stroke="#8b7048" stroke-opacity=".48"/>
+<g fill="#b18b55" opacity=".5"><circle cx="1122" cy="38" r="2"/><circle cx="1150" cy="64" r="1.5"/><circle cx="1084" cy="88" r="1.2"/></g>
 </svg>
