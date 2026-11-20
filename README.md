@@ -3,9 +3,11 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/nnminh115/"><img src="https://img.shields.io/badge/LinkedIn-connect-4b3b2a?style=flat-square&logo=linkedin&logoColor=d8bd8b" alt="LinkedIn" /></a>
-  <a href="mailto:nhatminhvcst115@gmail.com"><img src="https://img.shields.io/badge/Email-contact-4b3b2a?style=flat-square&logo=gmail&logoColor=d8bd8b" alt="Email" /></a>
-  <a href="https://github.com/nhatminh-115"><img src="https://img.shields.io/badge/GitHub-nhatminh--115-4b3b2a?style=flat-square&logo=github&logoColor=d8bd8b" alt="GitHub" /></a>
+  <a href="https://www.linkedin.com/in/nnminh115/">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:nhatminhvcst115@gmail.com">Email</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/nhatminh-115">GitHub</a>
 </p>
 
 <p align="center">
@@ -16,20 +18,9 @@
   <img src="assets/about-panel.svg" alt="About: I build applied AI systems across computer vision, LLM applications and machine learning, focusing on data quality, evaluation, inference, backend integration and deployment." width="100%" />
 </p>
 
-<p align="center">
-  <a href="https://github.com/nhatminh-115?tab=repositories">Browse repositories ↗</a>
-  &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/nnminh115/">LinkedIn ↗</a>
-  &nbsp;·&nbsp;
-  <a href="mailto:nhatminhvcst115@gmail.com">Email ↗</a>
-</p>
-
----
-
-<p align="center">
+<a href="https://github.com/nhatminh-115/SentinelVision-Showcase">
   <img src="assets/work-sentinelvision.svg" alt="SentinelVision: real-time PPE monitoring with YOLO detection, ByteTrack, size-routed classifiers, parallel alerts and a human-confirmed MLOps retraining loop." width="100%" />
-  <a href="https://github.com/nhatminh-115/SentinelVision-Showcase"><strong>Explore SentinelVision repository ↗</strong></a>
-</p>
+</a>
 
 <details>
   <summary>Technical notes — SentinelVision</summary>
@@ -40,10 +31,9 @@
   - **Human-in-the-loop MLOps:** versioned human-confirmed labels, disagreement monitoring, gated EC2 Spot retraining, and MLflow/DagsHub artifact tracking.
 </details>
 
-<p align="center">
+<a href="https://github.com/nhatminh-115/ReframeBot">
   <img src="assets/work-reframebot.svg" alt="ReframeBot: local LLM application with Llama 3.1 8B fine-tuning, AWQ quantization, vLLM serving, safety routing and RAGAS evaluation." width="100%" />
-  <a href="https://github.com/nhatminh-115/ReframeBot"><strong>Explore ReframeBot repository ↗</strong></a>
-</p>
+</a>
 
 <details>
   <summary>Technical notes — ReframeBot</summary>
@@ -54,10 +44,9 @@
   - Evaluated retrieval quality with **RAGAS** and traced application behavior with LangSmith.
 </details>
 
-<p align="center">
+<a href="https://github.com/nhatminh-115/IoT-DigitalTwin-Backend">
   <img src="assets/work-digital-twin.svg" alt="UEH Campus Digital Twin: sensor telemetry, reliability checks, LSTM forecasting, autoencoder anomaly signals, FastAPI, Unity 3D, Streamlit and Telegram AI assistant." width="100%" />
-  <a href="https://github.com/nhatminh-115/IoT-DigitalTwin-Backend"><strong>Explore Digital Twin repository ↗</strong></a>
-</p>
+</a>
 
 <details>
   <summary>Technical notes — UEH Campus Digital Twin</summary>
@@ -68,10 +57,9 @@
   - Connected the models to **FastAPI**, a Unity 3D client, Streamlit monitoring, and a Telegram assistant powered by Groq Llama 3.3 70B.
 </details>
 
-<p align="center">
+<a href="https://github.com/nhatminh-115/Patch-Content-Fungibility">
   <img src="assets/work-pcf.svg" alt="Patch-Content Fungibility: mechanistic investigation of late-layer Vision Transformer patch representations and operator-aware token compression." width="100%" />
-  <a href="https://github.com/nhatminh-115/Patch-Content-Fungibility"><strong>Explore PCF research repository ↗</strong></a>
-</p>
+</a>
 
 <details>
   <summary>Technical notes — Patch-Content Fungibility</summary>
@@ -80,8 +68,6 @@
   - Examines feature geometry, token diversity, directional sensitivity, and functional transmission across four pretrained ViT families.
   - Includes an operator-aware token-compression benchmark as a bounded application of the mechanistic findings.
 </details>
-
----
 
 <p align="center">
   <img src="assets/toolkit-panel.svg" alt="Engineering toolkit: Python, PyTorch, Transformers, Pandas, NumPy, PEFT, YOLO, ONNX, vLLM, AWQ, FastAPI, RAGAS, LangGraph, Docker, AWS, Terraform, PostgreSQL and MLflow." width="100%" />
@@ -101,6 +87,4 @@
 
 <p align="center">
   <sub>Interested in AI engineering roles across computer vision, LLM systems, and applied ML.</sub>
-  <br />
-  <sub><a href="https://www.linkedin.com/in/nnminh115/">LinkedIn</a> · <a href="mailto:nhatminhvcst115@gmail.com">Email</a></sub>
 </p>
