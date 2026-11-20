@@ -1,9 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="165" viewBox="0 0 1200 165" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="t d">
 <title id="t">Education and credentials</title><desc id="d">UEH Bachelor of Robotics and Artificial Intelligence, GPA 3.65 out of 4, TOEIC 985 out of 990.</desc>
-<rect width="1200" height="165" rx="8" fill="#211a14"/><rect x="1" y="1" width="1198" height="163" rx="8" fill="none" stroke="#8f7148" stroke-opacity=".7"/>
-<text x="34" y="36" fill="#c79b5d" font-family="monospace" font-size="12" letter-spacing="2">FIELD RECORD  /  EDUCATION &amp; CREDENTIALS</text>
-<text x="34" y="82" fill="#f0e4ca" font-family="Georgia,serif" font-size="30">University of Economics Ho Chi Minh City</text>
-<text x="34" y="116" fill="#d7c7a7" font-family="Arial,sans-serif" font-size="17">B.Eng. Robotics &amp; Artificial Intelligence · Expected March 2027</text>
-<g transform="translate(830 50)"><rect width="150" height="78" rx="6" fill="#38291b" stroke="#a57b45"/><text x="75" y="26" fill="#c79b5d" font-family="monospace" font-size="10" text-anchor="middle">GPA</text><text x="75" y="59" fill="#f0e4ca" font-family="Georgia,serif" font-size="27" text-anchor="middle">3.65 / 4.00</text></g>
-<g transform="translate(997 50)"><rect width="169" height="78" rx="6" fill="#38291b" stroke="#a57b45"/><text x="84" y="26" fill="#c79b5d" font-family="monospace" font-size="10" text-anchor="middle">TOEIC L&amp;R</text><text x="84" y="59" fill="#f0e4ca" font-family="Georgia,serif" font-size="27" text-anchor="middle">985 / 990</text></g>
+<defs><linearGradient id="bg" x2="1" y2="0"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#11150f"/></linearGradient></defs><rect width="1200" height="150" fill="url(#bg)"/>
+<text x="32" y="29" fill="#b99561" font-family="monospace" font-size="11" letter-spacing="2.5">FIELD RECORD  /  EDUCATION &amp; CREDENTIALS</text>
+<text x="32" y="73" fill="#eee4d1" font-family="Georgia,serif" font-size="29">University of Economics Ho Chi Minh City</text>
+<text x="32" y="105" fill="#c9c2b5" font-family="Arial,sans-serif" font-size="17">B.Eng. Robotics &amp; Artificial Intelligence · Expected March 2027</text>
+<path d="M818 43V123M990 43V123" stroke="#8b7048" stroke-opacity=".5"/>
+<g transform="translate(846 52)"><text x="0" y="0" fill="#b99561" font-family="monospace" font-size="10">GPA</text><text x="0" y="42" fill="#eee4d1" font-family="Georgia,serif" font-size="27">3.65 / 4.00</text></g>
+<g transform="translate(1018 52)"><text x="0" y="0" fill="#b99561" font-family="monospace" font-size="10">TOEIC L&amp;R</text><text x="0" y="42" fill="#eee4d1" font-family="Georgia,serif" font-size="27">985 / 990</text></g>
+<path d="M32 134H1168" stroke="#8b7048" stroke-opacity=".48"/>
 </svg>
