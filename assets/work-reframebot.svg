@@ -1,11 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="175" viewBox="0 0 1200 175" role="img" aria-labelledby="t d">
 <title id="t">ReframeBot — LLM Systems</title><desc id="d">Local LLM application with fine-tuning, quantized vLLM serving, safety routing and retrieval evaluation.</desc>
-<defs><linearGradient id="bg" x2="1" y2="0"><stop stop-color="#0d1117"/><stop offset=".78" stop-color="#0d1117"/><stop offset="1" stop-color="#11150f"/></linearGradient><radialGradient id="glow"><stop stop-color="#a17d4a" stop-opacity=".1"/><stop offset="1" stop-color="#a17d4a" stop-opacity="0"/></radialGradient></defs>
-<rect width="1200" height="175" fill="url(#bg)"/><ellipse cx="1090" cy="80" rx="200" ry="140" fill="url(#glow)"/><rect width="3" height="151" y="8" fill="#b58b52"/>
-<text x="32" y="30" fill="#b99561" font-family="monospace" font-size="11" letter-spacing="2">02  /  LLM SYSTEMS · LOCAL SERVING · SAFETY EVALUATION</text>
-<text x="32" y="78" fill="#eee4d1" font-family="Georgia,serif" font-size="38">ReframeBot</text>
-<text x="32" y="111" fill="#d0c8ba" font-family="Arial,sans-serif" font-size="17">CBT-oriented student chatbot with Llama 3.1 8B fine-tuning (SFT + DPO) and AWQ quantization.</text>
-<text x="32" y="139" fill="#d0c8ba" font-family="Arial,sans-serif" font-size="17">Dockerized vLLM + FastAPI serving, DistilBERT safety routing, RAGAS retrieval evaluation and tracing.</text>
-<g transform="translate(978 43)" fill="none" stroke="#b18b55" opacity=".75"><rect x="0" y="17" width="48" height="34" rx="4"/><rect x="76" y="17" width="48" height="34" rx="4"/><rect x="152" y="17" width="48" height="34" rx="4"/><path d="M48 34h28m48 0h28"/><g fill="#d8c9ad" stroke="none" font-family="monospace" font-size="9" text-anchor="middle"><text x="24" y="38">LLM</text><text x="100" y="38">GUARD</text><text x="176" y="38">RAG</text></g><text x="100" y="74" stroke="none" fill="#b99561" font-family="monospace" font-size="9" text-anchor="middle">SERVE · ROUTE · EVALUATE</text></g>
-<path d="M32 166H1168" stroke="#8b7048" stroke-opacity=".48"/>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2b2016"/><stop offset=".55" stop-color="#19140f"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+ <linearGradient id="bottom" x1="0" y1="0" x2="0" y2="1"><stop offset=".66" stop-color="#0d1117" stop-opacity="0"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#d4a15a" stop-opacity=".4"/><stop offset="1" stop-color="#d4a15a" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1200" height="175" fill="url(#bg)"/><ellipse cx="1080" cy="75" rx="150" ry="120" fill="url(#glow)"/>
+<g fill="#090d11" opacity=".85"><path d="M870 175V90l-24 36 17-6-22 34 17-6-12 27z"/><path d="M1160 175V65l-31 45 22-7-29 42 22-8-17 38z"/></g>
+<circle cx="1090" cy="43" r="24" fill="#d8b67c" opacity=".58"/>
+<rect x="0" y="8" width="3" height="151" fill="#c08e48"/>
+<text x="32" y="30" fill="#c99a55" font-family="monospace" font-size="11" letter-spacing="2">02 / LLM SYSTEMS · LOCAL SERVING · SAFETY EVALUATION</text>
+<text x="32" y="78" fill="#f0e4ce" font-family="Georgia,serif" font-size="42">ReframeBot</text>
+<text x="32" y="111" fill="#d8cbb7" font-family="Arial,sans-serif" font-size="16.5">CBT-oriented student chatbot with Llama 3.1 8B fine-tuning (SFT + DPO) and AWQ quantization.</text>
+<text x="32" y="139" fill="#d8cbb7" font-family="Arial,sans-serif" font-size="16.5">Dockerized vLLM + FastAPI serving, DistilBERT safety routing, RAGAS retrieval evaluation and tracing.</text>
+<g transform="translate(1005 88)" stroke="#c0914d" stroke-width="2" fill="none" stroke-linejoin="round">
+ <path d="M-54-18q28-18 55 0v64q-28-16-55 0z" fill="#61442b"/><path d="M1-18q28-18 55 0v64Q28 12 1 46Z" fill="#8b653d"/><path d="M1-18v64M-42-5q16-7 32 0m-32 13q16-7 32 0m22-13q16-7 32 0m-32 13q16-7 32 0" stroke="#d7bd92" opacity=".65"/>
+ <path d="M-13-52h54q13 0 13 12v14q0 12-13 12H15L2-4v-10h-15q-13 0-13-12v-14q0-12 13-12z" fill="#33251a"/>
+ <circle cx="5" cy="-33" r="3" fill="#e4b45f" stroke="none"/><circle cx="20" cy="-33" r="3" fill="#e4b45f" stroke="none"/><circle cx="35" cy="-33" r="3" fill="#e4b45f" stroke="none"/>
+</g>
+<rect width="1200" height="175" fill="url(#bottom)"/>
 </svg>

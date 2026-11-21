@@ -1,12 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="t d">
 <title id="t">SentinelVision — Computer Vision and MLOps</title><desc id="d">Real-time PPE monitoring with detection, tracking, size-routed classification, parallel alerts and human-confirmed retraining.</desc>
-<defs><linearGradient id="bg" x2="1" y2="0"><stop stop-color="#0d1117"/><stop offset=".78" stop-color="#0d1117"/><stop offset="1" stop-color="#11150f"/></linearGradient><radialGradient id="glow"><stop stop-color="#a17d4a" stop-opacity=".12"/><stop offset="1" stop-color="#a17d4a" stop-opacity="0"/></radialGradient></defs>
-<rect width="1200" height="190" fill="url(#bg)"/><ellipse cx="1090" cy="88" rx="200" ry="150" fill="url(#glow)"/><rect width="3" height="166" y="8" fill="#b58b52"/>
-<text x="32" y="30" fill="#b99561" font-family="monospace" font-size="11" letter-spacing="2">01  /  COMPUTER VISION · REAL-TIME · HUMAN-IN-THE-LOOP MLOPS</text>
-<text x="32" y="78" fill="#eee4d1" font-family="Georgia,serif" font-size="38">SentinelVision</text>
-<text x="32" y="111" fill="#d0c8ba" font-family="Arial,sans-serif" font-size="17">Multi-camera PPE monitoring: YOLO ensemble → ByteTrack → size-routed classifiers → parallel alerts.</text>
-<text x="32" y="139" fill="#d0c8ba" font-family="Arial,sans-serif" font-size="17">Human-confirmed labels feed a drift-gated EfficientNet retraining and artifact-tracking loop.</text>
-<g transform="translate(32 157)" font-family="monospace" font-size="10" fill="#c6a875"><text x="0" y="12">DETECT + TRACK</text><path d="M119 8H164m-6-4 6 4-6 4" stroke="#9b7b4b" fill="none"/><text x="178" y="12">SIZE-ROUTED MODELS</text><path d="M326 8H371m-6-4 6 4-6 4" stroke="#9b7b4b" fill="none"/><text x="385" y="12">ALERT DELIVERY</text><path d="M505 8H550m-6-4 6 4-6 4" stroke="#9b7b4b" fill="none"/><text x="564" y="12">HUMAN-LABEL LOOP</text></g>
-<g transform="translate(1000 52)" fill="none" stroke="#b18b55" opacity=".7"><circle cx="66" cy="43" r="34"/><circle cx="66" cy="43" r="23" stroke-opacity=".45"/><path d="M66 16v54M39 43h54M47 24l38 38M85 24L47 62"/><text x="66" y="96" text-anchor="middle" stroke="none" fill="#b99561" font-family="monospace" font-size="9">LIVE → REVIEW → TRAIN</text></g>
-<path d="M32 181H1168" stroke="#8b7048" stroke-opacity=".48"/>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2a1e14"/><stop offset=".52" stop-color="#19140f"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+ <linearGradient id="bottom" x1="0" y1="0" x2="0" y2="1"><stop offset=".68" stop-color="#0d1117" stop-opacity="0"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+ <radialGradient id="moon"><stop stop-color="#e5c58c"/><stop offset="1" stop-color="#a77c43"/></radialGradient>
+</defs>
+<rect width="1200" height="190" fill="url(#bg)"/>
+<circle cx="1090" cy="50" r="27" fill="url(#moon)" opacity=".58"/>
+<g fill="#080c10" opacity=".88"><path d="M860 190V94l-27 39 20-7-25 37 19-7-16 34z"/><path d="M920 190V68l-35 48 25-8-33 49 25-9-19 50z"/><path d="M1170 190V82l-29 43 21-7-27 39 20-7-16 40z"/></g>
+<path d="M0 178Q210 154 390 174T780 170T1200 174V190H0Z" fill="#080c10" opacity=".8"/>
+<rect x="0" y="8" width="3" height="166" fill="#c08e48"/>
+<text x="32" y="30" fill="#c99a55" font-family="monospace" font-size="11" letter-spacing="2">01 / COMPUTER VISION · REAL-TIME · HUMAN-IN-THE-LOOP MLOPS</text>
+<text x="32" y="78" fill="#f0e4ce" font-family="Georgia,serif" font-size="42">SentinelVision</text>
+<text x="32" y="111" fill="#d8cbb7" font-family="Arial,sans-serif" font-size="16.5">Multi-camera PPE monitoring: YOLO ensemble → ByteTrack → size-routed classifiers → parallel alerts.</text>
+<text x="32" y="139" fill="#d8cbb7" font-family="Arial,sans-serif" font-size="16.5">Human-confirmed labels feed a drift-gated EfficientNet retraining and artifact-tracking loop.</text>
+<g transform="translate(32 157)" font-family="monospace" font-size="10.5" fill="#d0ad73"><text x="0" y="12">DETECT + TRACK</text><path d="M119 8H164m-6-4 6 4-6 4" stroke="#bd8d4d" fill="none"/><text x="178" y="12">SIZE-ROUTED MODELS</text><path d="M326 8H371m-6-4 6 4-6 4" stroke="#bd8d4d" fill="none"/><text x="385" y="12">ALERT DELIVERY</text><path d="M505 8H550m-6-4 6 4-6 4" stroke="#bd8d4d" fill="none"/><text x="564" y="12">HUMAN-LABEL LOOP</text></g>
+<g transform="translate(930 72)" stroke="#c0914d" fill="none" stroke-width="2" stroke-linejoin="round">
+ <path d="M-22 8h28l18 13v26H-22Z" fill="#6d4b2d"/><circle cx="1" cy="33" r="12" fill="#21170f" stroke-width="3"/><circle cx="1" cy="33" r="5" fill="#d6a34f" stroke="none"/>
+ <path d="M-10 47l-18 28m42-28 19 28M-10 47l-5 35m25-35 5 35" stroke="#9d7440"/>
+ <path d="M-31 3l-9-10m52 10 10-10" stroke="#e0b15f"/>
+ <path d="M-55-12h18m-18 0v18m85-18H12m18 0V6M-55 80h18m-18 0V62m85 18H12m18 0V62" stroke="#d6a34f" stroke-width="1.5"/>
+</g>
+<g transform="translate(1090 112)" stroke="#c0914d" fill="none" stroke-width="2"><rect x="-28" y="-14" width="56" height="38" rx="4" fill="#473323"/><circle cx="0" cy="4" r="11" fill="#15110d"/><path d="M-18 24l-10 30m46-30 10 30M-28 40h56" /></g>
+<rect width="1200" height="190" fill="url(#bottom)"/>
 </svg>

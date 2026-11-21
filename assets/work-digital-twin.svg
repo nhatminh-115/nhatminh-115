@@ -1,11 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="t d">
 <title id="t">UEH Campus Digital Twin — Applied ML and IoT</title><desc id="d">Campus environmental monitoring system with sensor data quality, forecasting, anomaly detection, dashboards, Unity 3D and Telegram AI assistant.</desc>
-<defs><linearGradient id="bg" x2="1" y2="0"><stop stop-color="#0d1117"/><stop offset=".78" stop-color="#0d1117"/><stop offset="1" stop-color="#11150f"/></linearGradient><radialGradient id="glow"><stop stop-color="#a17d4a" stop-opacity=".12"/><stop offset="1" stop-color="#a17d4a" stop-opacity="0"/></radialGradient></defs>
-<rect width="1200" height="190" fill="url(#bg)"/><ellipse cx="1090" cy="85" rx="210" ry="145" fill="url(#glow)"/><rect width="3" height="166" y="8" fill="#b58b52"/>
-<text x="32" y="30" fill="#b99561" font-family="monospace" font-size="11" letter-spacing="2">03  /  APPLIED ML · IOT · FORECASTING · CONVERSATIONAL INTERFACE</text>
-<text x="32" y="78" fill="#eee4d1" font-family="Georgia,serif" font-size="38">UEH Campus Digital Twin</text>
-<text x="32" y="111" fill="#d0c8ba" font-family="Arial,sans-serif" font-size="17">Environmental telemetry → reliability checks → multivariate LSTM forecasting + autoencoder anomaly signals.</text>
-<text x="32" y="139" fill="#d0c8ba" font-family="Arial,sans-serif" font-size="17">FastAPI services connect Unity 3D, Streamlit diagnostics and a Telegram AI assistant powered by Groq.</text>
-<g transform="translate(970 45)" stroke="#b18b55" fill="none" opacity=".78"><path d="M0 43h42m0 0 24-23m-24 23 24 23m0-46h37m-37 46h37" stroke-width="1.3"/><rect x="0" y="27" width="42" height="32" rx="3"/><rect x="66" y="4" width="37" height="30" rx="3"/><rect x="66" y="52" width="37" height="30" rx="3"/><rect x="140" y="4" width="68" height="30" rx="3"/><rect x="140" y="52" width="68" height="30" rx="3"/><g fill="#d8c9ad" stroke="none" font-family="monospace" font-size="8" text-anchor="middle"><text x="21" y="47">DATA</text><text x="84" y="23">ML</text><text x="84" y="71">API</text><text x="174" y="23">UNITY</text><text x="174" y="71">BOT</text></g></g>
-<path d="M32 181H1168" stroke="#8b7048" stroke-opacity=".48"/>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2a1f16"/><stop offset=".56" stop-color="#19150f"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+ <linearGradient id="bottom" x1="0" y1="0" x2="0" y2="1"><stop offset=".68" stop-color="#0d1117" stop-opacity="0"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#d3a65f" stop-opacity=".34"/><stop offset="1" stop-color="#d3a65f" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1200" height="190" fill="url(#bg)"/><ellipse cx="1080" cy="60" rx="190" ry="130" fill="url(#glow)"/>
+<g fill="#090d11" opacity=".85"><path d="M850 190V100l-28 40 20-7-26 37 20-7-16 27z"/><path d="M1160 190V72l-34 48 24-8-30 45 22-8-18 41z"/></g>
+<path d="M875 158l42-15 36 5 35-25 38 6 42-22 65 9" stroke="#d0a25c" stroke-width="2" fill="none" opacity=".65"/>
+<rect x="0" y="8" width="3" height="166" fill="#c08e48"/>
+<text x="32" y="30" fill="#c99a55" font-family="monospace" font-size="11" letter-spacing="2">03 / APPLIED ML · IOT · FORECASTING · CONVERSATIONAL INTERFACE</text>
+<text x="32" y="78" fill="#f0e4ce" font-family="Georgia,serif" font-size="42">UEH Campus Digital Twin</text>
+<text x="32" y="111" fill="#d8cbb7" font-family="Arial,sans-serif" font-size="16.5">Environmental telemetry → reliability checks → multivariate LSTM forecasting + autoencoder anomaly signals.</text>
+<text x="32" y="139" fill="#d8cbb7" font-family="Arial,sans-serif" font-size="16.5">FastAPI services connect Unity 3D, Streamlit diagnostics and a Telegram AI assistant powered by Groq.</text>
+<g transform="translate(1000 90)" stroke="#c0914d" stroke-width="2" fill="none" stroke-linejoin="round">
+ <path d="M-58 40V-6l58-28 58 28v46z" fill="#38291d"/><path d="M-42 40V5h24v35m12 0V5h24v35" stroke="#d5b47e"/>
+ <path d="M-58-6h116M0-34v-30" stroke="#d5b47e"/><circle cx="0" cy="-70" r="9" fill="#d6a34f"/><path d="M0-61v-10m-24 1 16 8m32-8-16 8" />
+ <circle cx="-26" cy="-63" r="5" fill="#d6a34f"/><circle cx="26" cy="-63" r="5" fill="#d6a34f"/>
+ <path d="M70-18h28q8 0 8 8v18q0 8-8 8H85l-9 8v-8h-6q-8 0-8-8V-10q0-8 8-8z" fill="#302216"/><circle cx="78" cy="0" r="2.5" fill="#e2b66d" stroke="none"/><circle cx="88" cy="0" r="2.5" fill="#e2b66d" stroke="none"/><circle cx="98" cy="0" r="2.5" fill="#e2b66d" stroke="none"/>
+</g>
+<rect width="1200" height="190" fill="url(#bottom)"/>
 </svg>

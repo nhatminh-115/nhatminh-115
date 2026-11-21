@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/minh-profile-banner.svg" alt="Nhat Minh — AI / ML Engineer" width="100%" />
+  <img src="assets/minh-profile-banner.webp" alt="Nhat Minh — AI / ML Engineer" width="100%" />
 </p>
 
 <p align="center">
