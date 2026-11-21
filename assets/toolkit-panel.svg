@@ -1,15 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="t d">
 <title id="t">Engineering toolkit</title><desc id="d">Selected tools for modeling, AI systems, backend, cloud and MLOps.</desc>
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#241a12"/><stop offset=".56" stop-color="#17130f"/><stop offset="1" stop-color="#0d1117"/></linearGradient><linearGradient id="bottom" x1="0" y1="0" x2="0" y2="1"><stop offset=".7" stop-color="#0d1117" stop-opacity="0"/><stop offset="1" stop-color="#0d1117"/></linearGradient></defs>
-<rect width="1200" height="190" fill="url(#bg)"/>
-<path d="M0 170Q200 150 400 169T800 168T1200 165V190H0Z" fill="#080c10" opacity=".8"/>
-<text x="32" y="30" fill="#c99a55" font-family="monospace" font-size="11" letter-spacing="2.5">FIELD KIT / ENGINEERING TOOLKIT</text>
-<g stroke="#9a7749" stroke-opacity=".55"><path d="M392 52V158M790 52V158"/></g>
-<g font-family="Arial,sans-serif">
- <g transform="translate(32 58)"><text x="0" y="0" fill="#c99a55" font-family="monospace" font-size="10">01 · MODELING</text><text x="0" y="34" fill="#f0e4ce" font-size="19">Python · PyTorch · Transformers</text><text x="0" y="63" fill="#d0c4b1" font-size="16">Pandas · NumPy · PEFT / LoRA · TRL</text></g>
- <g transform="translate(425 58)"><text x="0" y="0" fill="#c99a55" font-family="monospace" font-size="10">02 · AI SYSTEMS</text><text x="0" y="34" fill="#f0e4ce" font-size="19">YOLO · ONNX · vLLM · AWQ</text><text x="0" y="63" fill="#d0c4b1" font-size="16">FastAPI · RAGAS · LangGraph</text></g>
- <g transform="translate(823 58)"><text x="0" y="0" fill="#c99a55" font-family="monospace" font-size="10">03 · PLATFORM</text><text x="0" y="34" fill="#f0e4ce" font-size="19">Docker · AWS · Terraform</text><text x="0" y="63" fill="#d0c4b1" font-size="16">PostgreSQL · MLflow · DagsHub</text></g>
-</g>
-<g transform="translate(1105 35)" stroke="#c0914d" fill="none" stroke-width="2" opacity=".72"><circle cx="0" cy="0" r="17"/><path d="M0-12v24M-12 0h24M-8-8l16 16m0-16L-8 8"/></g>
-<rect width="1200" height="190" fill="url(#bottom)"/>
+<defs><linearGradient id="bg" x2="1" y2="0"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#11150f"/></linearGradient></defs><rect width="1200" height="190" fill="url(#bg)"/>
+<text x="32" y="30" fill="#b99561" font-family="monospace" font-size="11" letter-spacing="2.5">FIELD KIT  /  ENGINEERING TOOLKIT</text>
+<g font-family="Arial,sans-serif"><path d="M392 52V158M790 52V158" stroke="#8b7048" stroke-opacity=".48"/>
+<g transform="translate(32 58)"><text x="0" y="0" fill="#b99561" font-family="monospace" font-size="10">01 · MODELING</text><text x="0" y="34" fill="#eee4d1" font-size="19">Python · PyTorch · Transformers</text><text x="0" y="63" fill="#c9c2b5" font-size="16">Pandas · NumPy · PEFT / LoRA · TRL</text></g>
+<g transform="translate(425 58)"><text x="0" y="0" fill="#b99561" font-family="monospace" font-size="10">02 · AI SYSTEMS</text><text x="0" y="34" fill="#eee4d1" font-size="19">YOLO · ONNX · vLLM · AWQ</text><text x="0" y="63" fill="#c9c2b5" font-size="16">FastAPI · RAGAS · LangGraph</text></g>
+<g transform="translate(823 58)"><text x="0" y="0" fill="#b99561" font-family="monospace" font-size="10">03 · PLATFORM</text><text x="0" y="34" fill="#eee4d1" font-size="19">Docker · AWS · Terraform</text><text x="0" y="63" fill="#c9c2b5" font-size="16">PostgreSQL · MLflow · DagsHub</text></g></g>
+<path d="M32 174H1168" stroke="#8b7048" stroke-opacity=".48"/>
 </svg>

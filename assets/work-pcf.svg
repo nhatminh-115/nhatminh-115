@@ -1,22 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="175" viewBox="0 0 1200 175" role="img" aria-labelledby="t d">
 <title id="t">Patch-Content Fungibility — Mechanistic ML Research</title><desc id="d">Mechanistic study of spatial patch representations in Vision Transformers and operator-aware token compression.</desc>
-<defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2a1e15"/><stop offset=".54" stop-color="#19140f"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
- <linearGradient id="bottom" x1="0" y1="0" x2="0" y2="1"><stop offset=".65" stop-color="#0d1117" stop-opacity="0"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
- <radialGradient id="glow"><stop stop-color="#d4a35b" stop-opacity=".28"/><stop offset="1" stop-color="#d4a35b" stop-opacity="0"/></radialGradient>
-</defs>
-<rect width="1200" height="175" fill="url(#bg)"/><ellipse cx="1085" cy="80" rx="170" ry="125" fill="url(#glow)"/>
-<g fill="#080c10" opacity=".86"><path d="M890 175V82l-29 42 21-7-27 39 21-7-16 26z"/><path d="M1160 175V66l-31 46 22-7-29 42 21-7-17 35z"/></g>
-<rect x="0" y="8" width="3" height="151" fill="#c08e48"/>
-<text x="32" y="30" fill="#c99a55" font-family="monospace" font-size="11" letter-spacing="2">04 / MECHANISTIC ML · VISION TRANSFORMERS · REPRESENTATION ANALYSIS</text>
-<text x="32" y="78" fill="#f0e4ce" font-family="Georgia,serif" font-size="40">Patch-Content Fungibility</text>
-<text x="32" y="111" fill="#d8cbb7" font-family="Arial,sans-serif" font-size="16.5">Investigating when late-layer spatial patch content can be replaced while positions, sequence and weights remain fixed.</text>
-<text x="32" y="139" fill="#d8cbb7" font-family="Arial,sans-serif" font-size="16.5">Studies geometry, diversity, directional sensitivity and operator-aware token compression across four ViT families.</text>
-<g transform="translate(1000 87)" stroke="#c0914d" stroke-width="2" fill="none">
- <path d="M-66-34h44v44h-44zM-12-34h44v44h-44zM42-34h44v44H42zM-66 20h44v44h-44zM-12 20h44v44h-44zM42 20h44v44H42z" fill="#352619"/>
- <path d="M-44-12l54 54m54-54L10 42" stroke="#d6a34f" stroke-width="2.5"/>
- <circle cx="10" cy="42" r="9" fill="#d6a34f" stroke="none"/>
- <path d="M-44-12h54m0 0v54" stroke="#f0d49a" stroke-opacity=".65"/>
-</g>
-<rect width="1200" height="175" fill="url(#bottom)"/>
+<defs><linearGradient id="bg" x2="1" y2="0"><stop stop-color="#0d1117"/><stop offset=".78" stop-color="#0d1117"/><stop offset="1" stop-color="#11150f"/></linearGradient><radialGradient id="glow"><stop stop-color="#a17d4a" stop-opacity=".1"/><stop offset="1" stop-color="#a17d4a" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="175" fill="url(#bg)"/><ellipse cx="1090" cy="80" rx="200" ry="140" fill="url(#glow)"/><rect width="3" height="151" y="8" fill="#b58b52"/>
+<text x="32" y="30" fill="#b99561" font-family="monospace" font-size="11" letter-spacing="2">04  /  MECHANISTIC ML · VISION TRANSFORMERS · REPRESENTATION ANALYSIS</text>
+<text x="32" y="78" fill="#eee4d1" font-family="Georgia,serif" font-size="38">Patch-Content Fungibility</text>
+<text x="32" y="111" fill="#d0c8ba" font-family="Arial,sans-serif" font-size="17">Investigating when late-layer spatial patch content can be replaced while positions, sequence and weights remain fixed.</text>
+<text x="32" y="139" fill="#d0c8ba" font-family="Arial,sans-serif" font-size="17">Studies geometry, diversity, directional sensitivity and operator-aware token compression across four ViT families.</text>
+<g transform="translate(1000 43)" stroke="#b18b55" fill="none" opacity=".72"><g stroke-width="1.2"><rect x="0" y="0" width="26" height="26"/><rect x="34" y="0" width="26" height="26"/><rect x="68" y="0" width="26" height="26"/><rect x="0" y="34" width="26" height="26"/><rect x="34" y="34" width="26" height="26"/><rect x="68" y="34" width="26" height="26"/></g><path d="M13 13l34 34m38-34L47 47" stroke="#d0ad73" stroke-width="1.6"/><circle cx="47" cy="47" r="6" fill="#b18b55" fill-opacity=".16"/></g>
+<path d="M32 166H1168" stroke="#8b7048" stroke-opacity=".48"/>
 </svg>
